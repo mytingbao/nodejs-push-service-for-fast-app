@@ -1,0 +1,51 @@
+.bh-list-query {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 15px;
+    background-color: #ffffff;
+
+    .query-item {
+        margin-bottom: 10px;
+        width: 310px;
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .el-select,
+        .el-input {
+            width: 260px;
+        }
+
+        .el-date-editor {
+            width: 300px;
+
+            .el-range-separator {
+                width: 10%;
+            }
+        }
+    }
+}
+
+.bh-batch {
+    background-color: #ffffff;
+    padding: 15px;
+
+}
+
+.el-table {
+
+    .el-table__header-wrapper,
+    .el-table__fixed-header-wrapper {
+        th {
+            word-break: break-word;
+            background-color: #f8f8f9;
+            color: #515a6e;
+            height: 50px;
+            font-size: 13px;
+        }
+    }
+}
